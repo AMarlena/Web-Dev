@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                 Helvetica, Arial, sans-serif;
+    color: #24292f;
+    background: #ffffff;
+}
+
+.hero {
+    text-align: center;
+    padding: 96px 20px 64px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 16px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #57606a;
+    max-width: 640px;
+    margin: 0 auto 28px;
+}
+
+.btn-primary {
+    padding: 14px 22px;
+    font-size: 16px;
+    background: #24292f;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 40px 20px 80px;
+}
+
+.plan {
+    width: 320px;
+    padding: 28px;
+    border: 1px solid #d0d7de;
+    border-radius: 12px;
+}
+
+.plan h3 {
+    margin-top: 0;
+}
+
+.price {
+    font-size: 32px;
+    margin: 12px 0;
+}
+
+.price span {
+    font-size: 14px;
+    color: #57606a;
+}
+
+.plan ul {
+    padding-left: 18px;
+}
+
+.plan li {
+    margin-bottom: 10px;
+}
+
+.btn-secondary {
+    width: 100%;
+    padding: 12px;
+    background: #f6f8fa;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+}
+
+.btn-dark {
+    width: 100%;
+    padding: 12px;
+    background: #24292f;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+}
+
+.featured {
+    border: 2px solid #0969da;
+    position: relative;
+}
+
+.tag {
+    position: absolute;
+    top: -12px;
+    right: 20px;
+    background: #0969da;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 999px;
+}
+
+.btn-blue {
+    width: 100%;
+    padding: 12px;
+    background: #0969da;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+}
