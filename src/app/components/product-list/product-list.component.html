@@ -1,0 +1,15 @@
+<div class="card" *ngFor="let product of products">
+  <img [src]="product.image" alt="{{product.name}}">
+
+  <h3>{{ product.name }}</h3>
+  <p>{{ product.description }}</p>
+
+  <div class="price">{{ product.price }} ₸</div>
+
+  <div class="rating">⭐ {{ product.rating }}</div>
+
+  <div class="actions">
+    <a [href]="product.link" target="_blank">View</a>
+    <button (click)="share(product)">Share</button>
+  </div>
+</div>
