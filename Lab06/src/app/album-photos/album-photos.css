@@ -1,0 +1,10 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 150px);
+  gap: 15px;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+}
